@@ -13,11 +13,6 @@ use Spryker\Glue\Kernel\AbstractPlugin;
 class ProductListCustomerExpanderPlugin extends AbstractPlugin implements CustomerExpanderPluginInterface
 {
     /**
-     * @var \FondOfSpryker\Glue\ProductListCustomersRestApi\Processor\Expander\CustomerExpanderInterface
-     */
-    protected $customerExpander;
-
-    /**
      * {@inheritdoc}
      *
      * @api

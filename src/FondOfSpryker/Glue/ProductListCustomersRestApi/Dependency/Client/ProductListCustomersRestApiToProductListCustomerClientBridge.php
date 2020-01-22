@@ -4,7 +4,6 @@ namespace FondOfSpryker\Glue\ProductListCustomersRestApi\Dependency\Client;
 
 use FondOfSpryker\Client\ProductListCustomer\ProductListCustomerClientInterface;
 use Generated\Shared\Transfer\CustomerTransfer;
-use Generated\Shared\Transfer\ProductListCollectionTransfer;
 
 class ProductListCustomersRestApiToProductListCustomerClientBridge implements ProductListCustomersRestApiToProductListCustomerClientInterface
 {
