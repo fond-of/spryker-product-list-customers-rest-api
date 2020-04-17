@@ -31,7 +31,7 @@ class ProductListCustomersRestApiDependencyProvider extends AbstractBundleDepend
      */
     protected function addProductLustCustomerClient(Container $container): Container
     {
-        $container[static::CLIENT_PRODUCT_LIST_CUSTOMER] = function (Container $container) {
+        $container[static::CLIENT_PRODUCT_LIST_CUSTOMER] = static function (Container $container) {
             return new ProductListCustomersRestApiToProductListCustomerClientBridge(
                 $container->getLocator()->productListCustomer()->client()
             );
