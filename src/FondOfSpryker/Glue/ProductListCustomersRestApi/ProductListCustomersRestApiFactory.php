@@ -18,8 +18,6 @@ class ProductListCustomersRestApiFactory extends AbstractFactory
     }
 
     /**
-     * @throws
-     *
      * @return \FondOfSpryker\Glue\ProductListCustomersRestApi\Dependency\Client\ProductListCustomersRestApiToProductListCustomerClientInterface
      */
     protected function getProductListCustomerClient(): ProductListCustomersRestApiToProductListCustomerClientInterface
